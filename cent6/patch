@@ -1,0 +1,13 @@
+diff --git a/cross-make.sh b/cross-make.sh
+index a2b9978eb..1fdfc7a4b 100755
+--- a/cross-make.sh
++++ b/cross-make.sh
+@@ -8,7 +8,7 @@
+ # SSH is invoked to compile the C runtime.
+ # Passwordless login to the target machine is required.
+ 
+-config_options="--without-gencgc --with-cheneygc"
++config_options=""
+ if [ $1 = -p ]
+ then
+   ssh_port_opt="-p $2"

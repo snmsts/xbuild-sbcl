@@ -1,0 +1,3 @@
+GNUMAKE="make"; export GNUMAKE
+SBCL_XC_HOST="ros -L sbcl-bin without-roswell=t run -- --no-userinit --no-sysinit"; export SBCL_XC_HOST
+legacy_xc_spec=""; export legacy_xc_spec
